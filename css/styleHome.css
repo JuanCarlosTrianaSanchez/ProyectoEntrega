@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+header {
+  background-color: chartreuse;
+  margin: 25px;
+}
+
+main {
+  background-color: darkgoldenrod;
+  max-width: 1400px;
+  margin: 5px auto;
+}
+
+#main-img {
+  width: 1239px;
+  height: 368px;
+  top: 106px;
+  left: 101px;
+  radius: 5px;
+  object-fit: cover;
+}
+
+.menu-selection {
+  max-width: 25px;
+}
+
+.menu-img {
+  max-width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: darkorchid;
+}
+
+#grid-menu {
+  display: grid;
+  grid-area: 1/1 2/4;
+}
+max-width: 800px;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
