@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f3e5d8;
+}
+
+.top-container {
+  background-color: #255538;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-teme {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  margin-left: 10px;
+  color: white;
+}
+
+.dark-button {
+  background-image: url("/ProyectoEntrega/images/dark.jpg");
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 5px;
+}
+
+i {
+  font-family: "DM Sans";
+  color: white;
+  padding: 10px;
+}
+
+h1 {
+  font-family: "DM Serif Display";
+  color: white;
+}
+
+main {
+  max-width: 1600px;
+  margin: 20px auto;
+  background-color: rgb(161, 206, 164);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+form {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.form-container {
+  max-width: 50%;
+  margin: 0 auto;
+  background-color: #ccc;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label {
+  font-family: "DM Sans";
+  color: #6b193b;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.submit-button {
+  background-color: #255538;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #1e4533;
+}
+
+footer {
+  background-color: #255538;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left p,
+.footer-right p {
+  color: white;
+  font-family: "DM Sans";
+}

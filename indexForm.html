@@ -1,10 +1,67 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="" />
+    <title>BitCook - Envía tu receta</title>
+    <link rel="stylesheet" href="./css/styleForm.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="top-container">
+      <header>
+        <h1>BitCook</h1>
+        <div class="top-teme">
+          <i>Envía tu receta</i>
+          <button class="dark-button"></button>
+        </div>
+      </header>
+    </div>
+    <main>
+      <div class="form-container">
+        <form action="">
+          <div>
+            <label for="recipe">Nombre de la receta</label>
+            <input type="text" name="recipe" id="recipe" />
+          </div>
+          <div>
+            <label for="timer">Tiempo de preparación</label>
+            <input type="text" name="timer" id="timer" />
+          </div>
+          <div>
+            <label for="ingredients">Ingredientes</label>
+            <textarea
+              name="ingredients"
+              id="ingredients"
+              cols="90"
+              rows="10"
+              placeholder="Cuentanos qué ingredientes usar para tu receta"
+            ></textarea>
+          </div>
+          <div>
+            <label for="instructions">Instrucciones</label>
+            <textarea
+              name="instructions"
+              id="instructions"
+              cols="90"
+              rows="10"
+              placeholder="Cuentanos los pasos para preparar tu receta"
+            ></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Enviar" class="submit-button" />
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <p>BitCook</p>
+        </div>
+        <div class="footer-right">
+          <p>© Bogotá Institute of Technology</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
