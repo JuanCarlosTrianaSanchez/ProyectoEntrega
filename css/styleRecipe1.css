@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #f3e5d8;
+  background-color: rgb(243, 229, 216);
 }
 
 .top-container {
@@ -109,9 +109,13 @@ main {
 /* Estilos del pie de página */
 footer {
   background-color: #255538;
-  margin-top: 20px;
-  padding: 10px 20px;
+  padding: 10px 200px;
   border-radius: 5px;
+  bottom: 0;
+  width: 99%;
+  position: fixed;
+  margin-left: 15px;
+  height: 78px;
 }
 
 .footer-container {
