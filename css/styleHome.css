@@ -118,7 +118,6 @@ main {
 
 footer {
   background-color: #255538;
-  margin-top: 20px;
   padding: 10px 20px;
   border-radius: 5px;
 }
@@ -129,8 +128,8 @@ footer {
   align-items: center;
 }
 
-.footer-left p,
-.footer-right p {
+.footer-left,
+.footer-right {
   color: white;
   font-family: "DM Sans";
 }
