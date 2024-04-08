@@ -289,3 +289,28 @@ footer {
   font-family: "DMSans";
   font-size: 16px;
 }
+
+@media (max-width: 768px) {
+  header {
+    width: 728px;
+  }
+
+  main {
+    max-width: 728px;
+    display: block;
+  }
+
+  .left-column {
+    max-width: 728px;
+    height: 979px;
+  }
+
+  .right-column {
+    width: 727px;
+    height: 429px;
+  }
+
+  footer {
+    width: 728px;
+  }
+}
