@@ -249,6 +249,7 @@ main {
 }
 
 .right-column img {
+  background-color: crimson;
   max-width: 100%;
   padding: 15px;
   margin: 25px;
