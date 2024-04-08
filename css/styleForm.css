@@ -67,11 +67,13 @@ main {
   max-width: 820px;
   height: 946px;
   margin: 20px auto;
-  background-color: rgb(83, 196, 190);
+  background-color: rgb(126, 209, 18);
   border-radius: 10px;
   padding: 20px;
 }
-
+main h1 {
+  background-color: blue;
+}
 form {
   max-width: 100%;
   margin: 0 auto;
