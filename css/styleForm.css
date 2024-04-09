@@ -6,12 +6,12 @@
 
 @font-face {
   font-family: "DMSans";
-  src: url("/assets/fonts/DMSans-Regular.ttf") format("truetype");
+  src: url("/fonts/DMSans-Regular.ttf");
 }
 
 @font-face {
   font-family: "DMSerifDisplay";
-  src: url("/assets/fonts/DMSerifDisplay-Regular.ttf") format("truetype");
+  src: url("/fonts/DMSerifDisplay-Regular.ttf");
 }
 
 body {
@@ -33,7 +33,7 @@ header {
 header h1 {
   color: white;
   margin-left: 15px;
-  font-family: "DMSerifDisplay" serif;
+  font-family: "DMSerifDisplay";
   font-size: 24px;
 }
 
@@ -52,7 +52,7 @@ header h1 {
 }
 
 .dark-button {
-  background-image: url("/assets/images/dark.jpg");
+  background-image: url("/images/dark.jpg");
   background-size: cover;
   width: 40px;
   height: 40px;
@@ -66,32 +66,38 @@ header h1 {
 main {
   max-width: 820px;
   height: 946px;
-  margin: 20px auto;
-  background-color: rgb(126, 209, 18);
-  border-radius: 10px;
-  padding: 20px;
-}
-main h1 {
-  background-color: blue;
-}
-form {
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.form-container {
-  max-width: 60px;
-  margin: 0 auto;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
   background-color: #ccc;
   padding: 20px;
   border-radius: 10px;
 }
 
+main h1 {
+  font-family: "DMSerifDisplay";
+  font-size: 40px;
+  color: #7e4333;
+}
+main p {
+  margin: 15px 0;
+  font-family: "DMSans";
+  font-size: 16px;
+}
+
+form {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 label {
   font-family: "DM Sans";
-  color: #6b193b;
+  color: #7e4333;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
+  font-size: 24px;
 }
 
 input[type="text"],

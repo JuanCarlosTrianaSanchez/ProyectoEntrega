@@ -19,7 +19,6 @@ body {
 }
 header {
   background-color: #255538;
-  width: 1600px;
   height: 58px;
   display: flex;
   justify-content: space-between;
@@ -271,7 +270,6 @@ main {
 footer {
   background-color: #255538;
   color: white;
-  width: 1600px;
   height: 78px;
   display: flex;
   justify-content: space-between;
@@ -291,26 +289,5 @@ footer {
 }
 
 @media (max-width: 768px) {
-  header {
-    width: 728px;
-  }
-
-  main {
-    max-width: 728px;
-    display: block;
-  }
-
-  .left-column {
-    max-width: 728px;
-    height: 979px;
-  }
-
-  .right-column {
-    width: 727px;
-    height: 429px;
-  }
-
-  footer {
-    width: 728px;
-  }
+  /* definir grid */
 }
