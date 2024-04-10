@@ -75,8 +75,7 @@ main {
 }
 
 .image-container {
-  width: 1239px;
-  min-height: 368px;
+  min-height: 460px;
   margin-top: 25px;
   border-radius: 10px;
   background-image: url("/images/PortadaItaliana.jpeg");
@@ -228,4 +227,16 @@ footer {
 #footer-right {
   font-family: "DMSans";
   font-size: 16px;
+}
+
+@media screen and (max-width: 749px) {
+  .recipe-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1049px) {
+  .recipe-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
