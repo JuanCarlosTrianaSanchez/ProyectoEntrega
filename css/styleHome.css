@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: "DMSerifDisplay";
-  src: url("/fonts/DMSerifDisplay-Regular.ttf");
+  src: url("/fonts/DMSerifDisplay-Regular.ttf") format("truetype");
 }
 
 body {
@@ -19,13 +19,11 @@ body {
 }
 header {
   background-color: #255538;
-  width: 1600px;
   height: 58px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 15px;
-  margin-left: 40px;
+  margin: 15px;
   padding: 10px;
   border-radius: 5px;
 }
@@ -33,7 +31,7 @@ header {
 header h1 {
   color: white;
   margin-left: 15px;
-  font-family: "DMSerifDisplay" serif;
+  font-family: "DMSerifDisplay";
   font-size: 24px;
 }
 
@@ -41,7 +39,6 @@ header h1 {
   padding-right: 5px;
   display: flex;
   align-items: center;
-  font-family: "DMSans", sans-serif;
 }
 
 #travel {
@@ -62,12 +59,19 @@ header h1 {
   margin: 5px;
   color: white;
 }
-.mid-cartel {
-  margin: 10px;
-  font-family: "DMSerifDisplay";
-  font-size: 36px;
-  color: #7e4333;
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
+
+main {
+  max-width: 1240px;
+  margin: 40px auto;
+  border-radius: 10px;
+  padding: 1px;
+}
+
 main {
   max-width: 1239px;
   margin: 0 auto;
@@ -99,7 +103,7 @@ main {
   box-sizing: border-box;
   font-size: 40px;
   margin: 30px;
-  font-family: "DM Serif Display";
+  font-family: "DMSerifDisplay";
 }
 
 .recipe-grid {
@@ -181,13 +185,20 @@ main {
   font-size: 36px;
   color: #7e4333;
 }
+#letter-container-a {
+  font-size: 34px;
+}
+
+#letter-container-b {
+  font-size: 29px;
+}
 
 .recipe-item ul {
-  margin-left: 15px;
+  margin-left: 25px;
 }
 
 .recipe-item ul li {
-  font-family: "DMSans", sans-serif;
+  font-family: "DMSans";
   font-size: 16px;
   margin-top: 5px;
   list-style-type: disc;
@@ -196,12 +207,11 @@ main {
 footer {
   background-color: #255538;
   color: white;
-  width: 1600px;
   height: 78px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 20px;
+  margin: 0 20px;
   padding: 20px;
   border-radius: 5px;
 }

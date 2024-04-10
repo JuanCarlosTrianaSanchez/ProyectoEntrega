@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: "DMSerifDisplay";
-  src: url("/DMSerifDisplay-Regular.ttf") format("truetype");
+  src: url("/fonts/DMSerifDisplay-Regular.ttf") format("truetype");
 }
 
 body {
@@ -19,13 +19,11 @@ body {
 }
 header {
   background-color: #255538;
-  width: 1600px;
   height: 58px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 15px;
-  margin-left: 40px;
+  margin: 15px;
   padding: 10px;
   border-radius: 5px;
 }
@@ -33,7 +31,7 @@ header {
 header h1 {
   color: white;
   margin-left: 15px;
-  font-family: "DMSerifDisplay" serif;
+  font-family: "DMSerifDisplay";
   font-size: 24px;
 }
 
@@ -41,7 +39,6 @@ header h1 {
   padding-right: 5px;
   display: flex;
   align-items: center;
-  font-family: "DMSans", sans-serif;
 }
 
 #travel {
@@ -63,6 +60,17 @@ header h1 {
   color: white;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  max-width: 1240px;
+  margin: 40px auto;
+  border-radius: 10px;
+  padding: 1px;
+}
 main {
   max-width: 1240px;
   margin: 40px auto;
@@ -90,7 +98,7 @@ main {
 .dish {
   max-width: 100%;
   height: 287px;
-  background-image: url("/images/4-Tagliatelle-al-ragu.webp");
+  background-image: url("/images/1-PenneallArrabbiata.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -137,7 +145,7 @@ main {
 }
 
 #complex ul li {
-  font-family: "DMSans", sans-serif;
+  font-family: "DMSans";
   font-size: 16px;
   margin-top: 5px;
 }
@@ -157,7 +165,7 @@ main {
   margin-left: 30px;
 }
 #how ol li {
-  font-family: "DMSans", sans-serif;
+  font-family: "DMSans";
   font-size: 16px;
   margin-top: 5px;
 }
@@ -185,13 +193,13 @@ main {
 }
 
 #top-row ul li {
-  font-family: "DMSans", sans-serif;
+  font-family: "DMSans";
   font-size: 16px;
   margin-bottom: 3px;
 }
 
 .recipe {
-  font-family: "DMSans", sans-serif;
+  font-family: "DMSans";
   font-size: 16px;
   margin-bottom: 10px;
 }
@@ -228,19 +236,16 @@ main {
   font-size: 20px;
 }
 
-#mid-row p {
-  font-family: "DMSans", sans-serif;
-  font-size: 16px;
-}
-
-.recipe-card {
+#recipe-card-a {
   display: flex;
   align-items: center;
   border-radius: 10px;
+  font-family: "DMSans";
+  font-size: 16px;
 }
 
-.dish-card {
-  background-image: url("/images/recipeExample.jpg");
+#dish-card-a {
+  background-image: url("/images/2spaghetticarbonara.jpg");
   width: 80px;
   height: 80px;
   border-radius: 15px;
@@ -248,17 +253,76 @@ main {
   background-position: center;
 }
 
-.right-column img {
-  background-color: crimson;
-  max-width: 100%;
-  padding: 15px;
-  margin: 25px;
+#recipe-card-b {
+  display: flex;
+  align-items: center;
   border-radius: 10px;
-  object-fit: cover;
+  font-family: "DMSans";
+  font-size: 16px;
+}
+
+#dish-card-b {
+  background-image: url("/images/3-lasana.jpg");
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+
+#recipe-card-c {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  font-family: "DMSans";
+  font-size: 16px;
+}
+
+#dish-card-c {
+  background-image: url("/images/4-Tagliatelle-al-ragu.webp");
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+
+#recipe-card-d {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  font-family: "DMSans";
+  font-size: 16px;
+}
+
+#dish-card-d {
+  background-image: url("/images/5-risotto-alla-milanese.jpg");
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+
+#recipe-card-e {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  font-family: "DMSans";
+  font-size: 16px;
+}
+
+#dish-card-e {
+  background-image: url("/images/6-carne-alla-genovese-manzo.jpg");
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
 }
 
 .recipe-info {
-  padding: 15px;
+  padding: 10px;
 }
 
 .recipe-info h3 {
@@ -272,12 +336,11 @@ main {
 footer {
   background-color: #255538;
   color: white;
-  width: 1600px;
   height: 78px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 20px;
+  margin: 0 20px;
   padding: 20px;
   border-radius: 5px;
 }
@@ -289,4 +352,10 @@ footer {
 #footer-right {
   font-family: "DMSans";
   font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 100%;
+  }
 }
