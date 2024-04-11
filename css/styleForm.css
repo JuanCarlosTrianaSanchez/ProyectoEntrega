@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: #ecc2e3;
+  background-color: #f3e5d8;
 }
 header {
   background-color: #255538;
@@ -24,7 +24,6 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 15px;
-  padding: 10px;
   border-radius: 5px;
 }
 
@@ -70,6 +69,7 @@ main {
   margin: 40px auto;
   border-radius: 10px;
   padding: 1px;
+  border: 3px black solid;
 }
 
 main {
@@ -155,4 +155,22 @@ footer {
 #footer-right {
   font-family: "DMSans";
   font-size: 16px;
+}
+
+@media screen and (max-width: 749px) {
+  body {
+    padding: 0 20px;
+  }
+  header {
+    margin: 15px 0px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1049px) {
+  body {
+    padding: 0 20px;
+  }
+  header {
+    margin: 15px 0px;
+  }
 }

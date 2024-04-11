@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: #ecc2e3;
+  background-color: #f3e5d8;
 }
 header {
   background-color: #255538;
@@ -81,6 +81,7 @@ main {
 }
 
 .left-column {
+  border: 3px black solid;
   flex: 70%;
   padding: 10px;
   background-color: white;
@@ -99,6 +100,7 @@ main {
   margin: 10px;
   margin-top: 10px;
   border-right: 5px;
+  border: 3px black solid;
 }
 
 #recipe {
@@ -120,11 +122,12 @@ main {
 }
 
 #complex {
-  background-color: #ecc2e3;
+  background-color: #f3e5d8;
   padding: 2px;
   margin: 14px;
   border-radius: 10px;
   height: 200px;
+  border: 3px black solid;
 }
 
 #complex h2 {
@@ -174,6 +177,7 @@ main {
   margin-top: 5px;
   margin-bottom: 15px;
   padding: 15px;
+  border: 3px black solid;
 }
 
 #top-row h2 {
@@ -217,6 +221,7 @@ main {
   border-radius: 10px;
   display: grid;
   grid-gap: 10px;
+  border: 3px black solid;
 }
 
 #mid-row h2 {
@@ -351,5 +356,28 @@ footer {
 @media (max-width: 768px) {
   .grid-container {
     grid-template-columns: 100%;
+  }
+}
+@media screen and (max-width: 749px) {
+  main {
+    padding: 20px;
+  }
+  .recipe-grid {
+    grid-template-columns: 1fr;
+  }
+  .recipe-item {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1049px) {
+  main {
+    padding: 20px;
+  }
+  .recipe-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .recipe-item {
+    width: 100%;
   }
 }
