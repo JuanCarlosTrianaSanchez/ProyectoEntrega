@@ -6,12 +6,12 @@
 
 @font-face {
   font-family: "DMSans";
-  src: url("/fonts/DMSans-Regular.ttf") format("truetype");
+  src: url("../fonts/DMSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "DMSerifDisplay";
-  src: url("/fonts/DMSerifDisplay-Regular.ttf") format("truetype");
+  src: url("../fonts/DMSerifDisplay-Regular.ttf") format("truetype");
 }
 
 body {
@@ -48,7 +48,7 @@ header h1 {
 }
 
 .dark-button {
-  background-image: url("/images/dark.jpg");
+  background-image: url("../images/dark.jpg");
   background-size: cover;
   width: 40px;
   height: 40px;
