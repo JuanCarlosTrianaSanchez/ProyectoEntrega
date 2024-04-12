@@ -15,6 +15,19 @@
   font-family: "DMSerifDisplay";
   src: url("../fonts/DMSerifDisplay-Regular.ttf");
 }
+.dark-mode *,
+.dark-mode .image-text,
+.dark-mode .recipe-item h2 {
+  color: white;
+}
+.dark-mode,
+.dark-mode main {
+  background-color: #000000;
+}
+
+.dark-mode .recipe-item {
+  background-color: #2f2f2f;
+}
 
 body {
   background-color: #f3e5d8;
@@ -26,7 +39,6 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 15px;
-  padding: 10px;
   border-radius: 5px;
 }
 
@@ -36,8 +48,7 @@ header h1 {
   font-family: "DMSerifDisplay";
   font-size: 24px;
 }
-
-#top-box {
+#icon-container {
   padding-right: 5px;
   display: flex;
   align-items: center;

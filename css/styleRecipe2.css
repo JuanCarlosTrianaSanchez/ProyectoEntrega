@@ -5,15 +5,40 @@
 }
 
 @font-face {
+  font-weight: lighter;
   font-family: "DMSans";
-  src: url("../fonts/DMSans-Regular.ttf") format("truetype");
+  src: url("../fonts/DMSans-Regular.ttf");
 }
 
 @font-face {
+  font-weight: lighter;
   font-family: "DMSerifDisplay";
-  src: url("../fonts/DMSerifDisplay-Regular.ttf") format("truetype");
+  src: url("../fonts/DMSerifDisplay-Regular.ttf");
 }
-
+.dark-mode *,
+.dark-mode h1,
+.dark-mode h2 {
+  color: white !important;
+  font-weight: lighter !important;
+}
+.dark-mode {
+  background-color: black;
+}
+.dark-mode .left-column,
+.dark-mode #top-row,
+.dark-mode #mid-row {
+  background-color: #2f2f2f;
+}
+.dark-mode #complex {
+  background-color: #4e4d4e;
+}
+.dark-mode #dish-card-a,
+.dark-mode #dish-card-b,
+.dark-mode #dish-card-c,
+.dark-mode #dish-card-d,
+.dark-mode #dish-card-e {
+  border: 2px rgb(8, 8, 8) solid;
+}
 body {
   background-color: #f3e5d8;
 }
@@ -24,7 +49,6 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 15px;
-  padding: 10px;
   border-radius: 5px;
 }
 
@@ -34,8 +58,7 @@ header h1 {
   font-family: "DMSerifDisplay";
   font-size: 24px;
 }
-
-#top-box {
+#icon-container {
   padding-right: 5px;
   display: flex;
   align-items: center;
@@ -47,7 +70,6 @@ header h1 {
   padding: 10px;
   font-size: 16px;
 }
-
 .dark-button {
   background-image: url("../images/dark.jpg");
   background-size: cover;
@@ -65,12 +87,6 @@ a {
   color: inherit;
 }
 
-main {
-  max-width: 1240px;
-  margin: 40px auto;
-  border-radius: 10px;
-  padding: 1px;
-}
 main {
   max-width: 1240px;
   margin: 40px auto;
@@ -110,7 +126,7 @@ main {
 }
 
 #recipe {
-  height: 200px;
+  height: auto;
   margin: 25px auto;
   padding: 20px;
 }
@@ -357,12 +373,6 @@ footer {
 #footer-right {
   font-family: "DMSans";
   font-size: 16px;
-}
-
-@media (max-width: 768px) {
-  .grid-container {
-    grid-template-columns: 100%;
-  }
 }
 
 @media screen and (max-width: 749px) {
