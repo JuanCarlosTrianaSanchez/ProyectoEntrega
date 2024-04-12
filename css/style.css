@@ -7,13 +7,13 @@
 @font-face {
   font-weight: lighter;
   font-family: "DMSans";
-  src: url("../fonts/DMSans-Regular.ttf");
+  src: url("./fonts/DMSans-Regular.ttf");
 }
 
 @font-face {
   font-weight: lighter;
   font-family: "DMSerifDisplay";
-  src: url("../fonts/DMSerifDisplay-Regular.ttf");
+  src: url("./fonts/DMSerifDisplay-Regular.ttf");
 }
 
 body {
@@ -51,7 +51,7 @@ header h1 {
 }
 
 .dark-button {
-  background-image: url("../images/dark.jpg");
+  background-image: url("./images/dark.jpg");
   background-size: cover;
   width: 40px;
   height: 40px;
@@ -78,7 +78,7 @@ main {
   min-height: 460px;
   margin-top: 25px;
   border-radius: 10px;
-  background-image: url("../images/PortadaItaliana.jpeg");
+  background-image: url("./images/PortadaItaliana.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -121,7 +121,7 @@ main h2 {
 }
 
 .menu1 {
-  background-image: url("../images/1-PenneallArrabbiata.jpg");
+  background-image: url("./images/1-PenneallArrabbiata.jpg");
   height: 248px;
   background-size: cover;
   background-position: center;
@@ -131,7 +131,7 @@ main h2 {
   border: 1px black solid;
 }
 .menu2 {
-  background-image: url("../images/2spaghetticarbonara.jpg");
+  background-image: url("./images/2spaghetticarbonara.jpg");
   height: 248px;
   background-size: cover;
   background-position: center;
@@ -141,7 +141,7 @@ main h2 {
   border: 1px black solid;
 }
 .menu3 {
-  background-image: url("../images/3-lasana.jpg");
+  background-image: url("./images/3-lasana.jpg");
   height: 248px;
   background-size: cover;
   background-position: center;
@@ -161,7 +161,7 @@ main h2 {
   border: 1px black solid;
 }
 .menu5 {
-  background-image: url("../images/5-risotto-alla-milanese.jpg");
+  background-image: url("./images/5-risotto-alla-milanese.jpg");
   height: 248px;
   background-size: cover;
   background-position: center;
@@ -171,7 +171,7 @@ main h2 {
   border: 1px black solid;
 }
 .menu6 {
-  background-image: url("../images/6-carne-alla-genovese-manzo.jpg");
+  background-image: url("./images/6-carne-alla-genovese-manzo.jpg");
   height: 248px;
   background-size: cover;
   background-position: center;
